@@ -94,6 +94,4 @@ public class UserServiceISpec {
 
         assertEquals(userById.getEmail(), newEmail, "Updated user");
     }
-
-
 }
