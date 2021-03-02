@@ -5,6 +5,7 @@ Pre req:
 * `docker`
 * `docker-compose`
 * `JDK-11`
+* `maven`
 
 ### To start dev and test database
 
@@ -21,21 +22,13 @@ docker-compose down
 ### To test
 
 ```shell
-# For linux/mac
-./mvnw test
-
-# For windows
-mvnw.cmd test
+mvn clean test
 ```
 
 ### To run
 
 ```shell
-# For linux/mac
-./mvnw spring-boot:run
-
-# For windows
-mvnw.cmd spring-boot:run
+mvn spring-boot:run
 ```
 
 ---
