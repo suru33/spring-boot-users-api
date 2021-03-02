@@ -1,0 +1,14 @@
+target/
+.mvn/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### MacOS ###
+.DS_Store
+
+### VS Code ###
+.vscode/
